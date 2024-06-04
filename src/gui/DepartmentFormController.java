@@ -89,7 +89,7 @@ public class DepartmentFormController implements Initializable {
 
 		ValidationException exception = new ValidationException("Validation error");
 
-		obj.setId(Utils.tryParseToInt(txtId.getId()));
+		obj.setId(Utils.tryParseToInt(txtId.getText()));
 
 		if (txtName.getText() == null || txtName.getText().trim().equals("")) {
 			exception.addError("name", "Field can't be empty");
@@ -132,7 +132,5 @@ public class DepartmentFormController implements Initializable {
 		if (fields.contains("name")) {
 			labelErrorName.setText(errors.get("name"));
 		}
-
 	}
-
 }
