@@ -9,7 +9,7 @@ prosseguir evoluindo, as especificidades e implementações.
 
 ## O que é
 Este repositório foi criado para o Curso Java COMPLETO - Programação Orientada a Objetos + Projetos.
-(edudandoweb.com)
+(educandoweb.com)
 Professor Dr. Nelio Alves
 
 
